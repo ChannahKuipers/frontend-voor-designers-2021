@@ -1,0 +1,124 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  background: rgb(14, 1, 35) center no-repeat;
+}
+
+body{
+  font-family: Avenir;
+  width: 100vw;
+  margin: 0em auto;
+}
+
+/* FONTS///////////////// */
+
+/* HEADER/////////////// */
+header {
+  background: white;
+  font-size: 1.1em;
+  border-radius: 0em 0em 2em 2em;
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  align-items: center;
+  padding: 0.8em;
+  padding-left: 1em;
+  padding-right: 1em; 
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  background-color: black;
+  color: white;
+  padding: 0.3em 1em;
+  border-radius: 1em;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+span { /* wishlist */
+  color: black;
+  background-color: rgb(253, 194, 85);
+  justify-content: space-between;
+  align-items: center baseline;
+  height: 100%;
+  padding: 0.3em 0.7em;
+  margin-left: 1em;
+  font-size: 0.7em;
+  border-radius: 2em;
+  font-weight: 700;
+  }
+
+/* MAIN ///////////////////////////*/
+main{
+  justify-content: center;
+  align-items: center;
+  font-family: Avenir;
+  font-size: 0.7em;
+  color: white;
+  padding-top: 5em;
+}
+h2 {
+  display: flex;
+  margin: 2em 1em 0em 1em;
+  padding-bottom: 0.3em;
+  border-bottom: white 1px solid;
+}
+section {
+  margin: 1em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: none (76, 175, 80, 0.1);
+  grid-gap: 1em;
+  margin-top: 1.5em;
+}
+article {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  padding: 0.5em;
+  object-fit: cover;
+  text-align: center;
+}
+article img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  border:  rgb(44, 7, 102) 2px solid 
+  /*box-shadow: 0.3em 0.3em 0em rgb(44, 7, 102);*/
+}
+h3 {
+  padding-top: 0.3em;
+}
+button.hartje {
+  background: none;
+  border: none;
+  color: rgb(253, 194, 85);
+  text-align: center;
+  font-size: 2em;
+  height: 100%;
+  width: 100%;
+}
+.hartje:focus {
+  outline: none;
+}
+button {
+ 
+}
+
