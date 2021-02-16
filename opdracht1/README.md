@@ -24,7 +24,7 @@ De tweede versie ...
 Ik ben begonnen met ...
 
 ### Bronnen
-* Plaatsing microinteractie bolletje: [https://www.w3schools.com/howto/howto_css_search_button.asp]
-* Plaatje naast tekst plaatsen:[https://www.w3schools.com/css/css_float.asp]
-* flex-objecten in andere positie plaatsen: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
-* Microinteratie van hartje: [https://codepen.io/shooft/pen/poyaJpa] [https://codepen.io/shooft/pen/abNPEga]
+* (Plaatsing microinteractie bolletje:) [https://www.w3schools.com/howto/howto_css_search_button.asp]
+* (Plaatje naast tekst plaatsen:) [https://www.w3schools.com/css/css_float.asp]
+* (flex-objecten in andere positie plaatsen:) [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+* (Microinteratie van hartje:) [https://codepen.io/shooft/pen/poyaJpa] [https://codepen.io/shooft/pen/abNPEga]
