@@ -12,6 +12,7 @@ Bij de website van Movie Time kunnen gebruikers hun favorieten films op hun wish
 De eerste versie heeft een basic layout, waar de afbeeldingen van de films de focus krijgen. 
 Tijdens het testen was er niet veel aan te merken op de werking van de site, hier en daar kon er wel netter uitgelijnd worden. Ook was er te zien dat er nog focus op de buttons stonden die ik bij het zelftesten in Firefox niet heb gezien, hier heb ik meer onderzoek naar gedaan.
 ![Screenshot v1](frontend-voor-designers-2021/img/v1.png)
+* Link v1: https://channahkuipers.github.io/frontend-voor-designers-2021/opdracht1/movies%20v1/
 
 Feedback:
 * Tekst en objecten netjes uitlijnen, zoals titel in het midden zetten.
@@ -23,6 +24,8 @@ Feedback:
 De tweede versie, in de definitieve site geworden. Ik heb bovenstaande feedback verwerkt. Ik heb display flex gebruikt om de header beter in het midden uit te lijnen. Het is mij alleen niet gelukt om het navigatie bolletje verticaal in het midden te krijgen. Ook kwamen de hartjes-iconen er nogsteeds anders uit te zien in Chrome, dit komt denk door de symbol zelf die gewoon standaard anders door Google Chrome wordt weergegeven. In Firefox blijft de vorm van het hartje gelukkig wel hetzelfde. 
 Verder heb ik de site extra vormgegeven en netter uitgelijnd.
 ![Screenshot v2](frontend-voor-designers-2021/img/v2.png)
+* Link v2: https://channahkuipers.github.io/frontend-voor-designers-2021/opdracht1/movies%20v2/
+
 
 ## Interface
 **Keep users in control**
