@@ -58,3 +58,4 @@ Op regel 27 wordt de functie *'updateWishlist'* aangeroepen. Met de code wordt d
 * Microinteratie van hartje: https://codepen.io/shooft/pen/poyaJpa https://codepen.io/shooft/pen/abNPEga 
 * Gebruik van grid en JS: Eigen code van de vakken: programmeren en frontend
 * Focus op buttons https://css-tricks.com/almanac/selectors/f/focus-visible/
+
