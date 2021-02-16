@@ -1,17 +1,38 @@
 # Frontend voor Designers - opdracht 1: Een Micro-interactie uitwerken en testen
 
-Ontwerp een user interface voor een gegeven use case. Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
+/Ontwerp een user interface voor een gegeven use case. Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
+Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md)./
 
-Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
+
+# Case: film als favoriet opslaan
+Bij de website van ...
+
+## Versie 1
+De eerste versie heeft een ...
+
+## Versie 2
+De tweede versie ...
 
 
-# Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+## Interface
+*Keep users in control*
 
-## interface
+*Strong visual hierarchies work best*
+
+
+## Code
+Ik ben begonnen met ...
+
+### Bronnen
+* Plaatsing microinteractie bolletje: [https://www.w3schools.com/howto/howto_css_search_button.asp]
+* Plaatje naast tekst plaatsen:[https://www.w3schools.com/css/css_float.asp]
+* flex-objecten in andere positie plaatsen: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+* Microinteratie van hartje: [https://codepen.io/shooft/pen/poyaJpa] [https://codepen.io/shooft/pen/abNPEga]
+
+
+
+
+
+
+
 Leg de interface uit. In de demo heb je de interface design principles 04 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
-
-
-## code
-Leg de code uit.
