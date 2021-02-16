@@ -11,7 +11,7 @@ Bij de website van Movie Time kunnen gebruikers hun favorieten films op hun wish
 ## Versie 1
 De eerste versie heeft een ...
 
-![Screenshot v1](frontend-voor-designers-2021/img/v1.png)
+![Screenshot v1](img/v1.png)
 
 Feedback:
 * Tekst en objecten netjes uitlijnen, zoals titel in het midden zetten.
