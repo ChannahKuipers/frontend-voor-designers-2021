@@ -9,9 +9,10 @@ Bij de website van Movie Time kunnen gebruikers hun favorieten films op hun wish
 
 
 ## Versie 1
-De eerste versie heeft een ...
-
-![Screenshot v1](./img/v1.png)
+De eerste versie heeft een basic layout, waar de afbeeldingen van de films de focus krijgen. 
+Tijdens het testen was er niet veel aan te merken op de werking van de site, hier en daar kon er wel netter uitgelijnd worden. Ook was er te zien dat er nog focus op de buttons stonden die ik bij het zelftesten in Firefox niet heb gezien, hier heb ik meer onderzoek naar gedaan.
+![Screenshot v1](frontend-voor-designers-2021/img/v1.png)
+Format: ![Alt Text]
 
 Feedback:
 * Tekst en objecten netjes uitlijnen, zoals titel in het midden zetten.
@@ -20,7 +21,7 @@ Feedback:
 
 
 ## Versie 2
-De tweede versie ...
+De tweede versie, in de definitieve site geworden. Ik heb bovenstaande feedback verwerkt.
 
 
 ## Interface
@@ -36,14 +37,20 @@ Ook laat ik de gebruiker in controle over het hartje, door deze met één druk t
 Dit is te zien aan het contrast van de site, de witte navigatie balk en teksten komen door de donkere achtergrond echt naar voren en zijn voor de gebruiker ook belangrijk om te zien. 
 Met de kleur van de elementen, wordt er ook onderscheid gemaakt.
 De witte teksten geeft de titel "trending" en de titels van de films aan.
-De oranje onderdelen heeft de interactie aan.
+De oranje onderdelen geeft elementen met interactie aan.
 
 Door de afbeeldingen van de films centraal te zetten zullen gebruiker deze sneller herkennen, daaronder staat de titel van de film en daaronder het wishlist-hartje om de film aan je wishlist toe te voegen. Dit is van boven naar bendede de volgorde hoe de gebruiker denkt/handeld. Welk soort film is het/ heb ik deze al gekeken? (Een afbeelding zegt al veel over een film). Daarna de bevestiging van de titel. Als laatst het watchlist-hartje, wil ik deze film toevoegen aan mijn watchlist?
 
 
 ## Code
-Ik ben begonnen met ...
-Tijdens het testen was er niet veel aan te merken op de werking van de site, hier en daar kon er wel netter uitgelijnd worden. Ook was er te zien dat er nog focus op de buttons stonden die ik bij het zelftesten in Firefox niet heb gezien, hier heb ik meer onderzoek naar gedaan.
+Als eerst ben ik begonnen met de opzet van de HTML, alle content elementen heb ik geplaatst, daarna ben ik alle onderdelen met CSS gaan stylen. Vervolgens ben ik begonnen met de JavaScript. Hierbij heb ik een bestaande code, als hulpmiddel gebruikt. Ook heb ik een paar filmpjes op youtube bekeken om QuerySelectAll te begrijpen.
+
+**Uitlegcode:** ik roep op regel 1 de variable op van de button *"hartje"*. De werking van deze variable controleer ik door *console.log* te gebruiken op regel 2, dit betekend dat er in de console wordt getoont wat er tussen de haakjes staat.
+Vanaf regel 8 worden de functies van de variabel *"hartje"* beschreven. Doormiddel van deze code zal, wanneer er op het hartje wordt geklikt, deze aan de favorieten worden toegevoegd of juist weggehaald worden.
+De code begint met een leeg hartje, wanneer hierop geklikt wordt, wordt het hartje ingevult. *'else'* geeft aan dat wanneer het hartje al is ingevult, het bij een click juist weer een leeg hartje moet weergeven.
+Op regel 20 wordt querySelectorAll gebruikt, hiermee worden alle hartjes op de site aangeroepen ipv één. De code geeft aan dat voor elke button *(btn)* die geselecteerd is, ook weg gedrukt kan worden *(return)*.
+
+Op regel 27 wordt de functie *'updateWishlist'* aangeroepen. Met de code wordt de film die de gebruiker met het hartje selecteerd ook met een cijfer +1 weergeven bij de wishlist *'favorites'* en zo aan de gebruiker laten weten dat deze film ook daadwerkelijk is toegevoegd *(newAmount = currentAmount + 1)*. Met *'else'* wordt aangegeven dat wanneer de gebruiker zijn/haar favoriete film weghaald (dus het hartje weg klikt) het aantal met -1 afneemt *(newAmount = currentAmount - 1)*.
 
 
 ### Bronnen
