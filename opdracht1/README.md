@@ -20,8 +20,9 @@ Feedback:
 
 
 ## Versie 2
-De tweede versie, in de definitieve site geworden. Ik heb bovenstaande feedback verwerkt.
-
+De tweede versie, in de definitieve site geworden. Ik heb bovenstaande feedback verwerkt. Ik heb display flex gebruikt om de header beter in het midden uit te lijnen. Het is mij alleen niet gelukt om het navigatie bolletje verticaal in het midden te krijgen. Ook kwamen de hartjes-iconen er nogsteeds anders uit te zien in Chrome, dit komt denk door de symbol zelf die gewoon standaard anders door Google Chrome wordt weergegeven. In Firefox blijft de vorm van het hartje gelukkig wel hetzelfde. 
+Verder heb ik de site extra vormgegeven en netter uitgelijnd.
+![Screenshot v2] (frontend-voor-designers-2021/img/v2.png).
 
 ## Interface
 **Keep users in control**
