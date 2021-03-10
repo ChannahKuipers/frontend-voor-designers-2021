@@ -6,11 +6,33 @@
 
 html {
     background: #1C1E26 center no-repeat;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-size: 70vw;
+    background-position: top 130px center;
 }
-
 body {
   font-family: Avenir book;
-  
+  font-size: 0.9em;
+}
+
+section, article {
+}
+@keyframes laat-verschijnen {
+  0% {
+    transform: scale(.75) translateX(3.2rem);
+    opacity: .3;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.visible {
+  animation-name: laat-verschijnen;
+  animation-duration: 800ms;
+  animation-fill-mode: both;
 }
 
 /* FONTS///////////////// */
@@ -20,41 +42,52 @@ header {
   color: white;
 }
 
-h1 {
-  position: absolute;
-  left: 1.5em; top: 2em;
-  font-size: 1.2em;
+h1 a {
+  position: fixed;
+  padding: 2em;
+  padding-left: 1.7em;
+  font-size: 0.5em;
   font-family: Avenir;
+  color: white;
+  text-decoration: none;
 }
 .titel {
-  position: absolute;
-  left: 2em; top: -5em;
+  position: fixed;
+  padding: 2em;
+  padding-top: 4em;
   font-size: 0.9em;
 }
 
 header ul {
-  position: absolute;
-  left: 2em; top: 6.5em;
+  position: fixed;
+  padding: 2em;
+  padding-top: 5.6em;
   font-size: 0.9em;
   list-style: none;
   text-decoration: underline;
 }
 
-header a {
+.email {
+  position: fixed;
   text-decoration: underline;
-  position: absolute;
-  top: 2em; right: 2em;
+  top: 50vh; right: -4em;
+  transform: rotate(90deg)
 }
 
 header img {
   position: absolute;
-  top: 5em;
+  top: 12em;
   width: 24em;
   left: calc(50% - 12em);
 }
+
 header p {
   text-align: center;
-  padding-top: 10em;
+  padding-top: 13em;
+  font-size: 1.1em;
+}
+span {
+  background-color: orange;
 }
 
 /* MAIN ///////////////////////////*/
@@ -196,4 +229,17 @@ footer ul {
   list-style: none;
   left: 2em;
   bottom: 2em;
+  font-size: 0.9em;
+}
+footer a {
+  color: white;
+}
+footer a:visited {
+  color: none;
+}
+footer a:hover {
+  color: orange;
+}
+footer a:active {
+  color: red;
 }

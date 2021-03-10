@@ -1,0 +1,254 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    background: #1C1E26 center no-repeat;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-size: 70vw;
+    background-position: top 130px center;
+}
+body {
+  font-family: Avenir book;
+  font-size: 0.9em;
+}
+
+section, article {
+ 
+}
+@keyframes laat-verschijnen {
+  0% {
+    transform: scale(.75) translateX(3.2rem);
+    opacity: .3;
+    transform-origin: center right;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+    transform-origin: center right;
+  }
+}
+.visible {
+  animation-play-state: running;
+  animation-name: laat-verschijnen;
+  transform-origin: center right;
+  animation-duration: 800ms;
+  animation-fill-mode: both;
+
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* FONTS///////////////// */
+
+/* HEADER/////////////// */
+header {
+  color: white;
+}
+
+h1 a {
+  position: fixed;
+  padding: 2em;
+  padding-left: 1.7em;
+  font-size: 0.5em;
+  font-family: Avenir;
+  color: white;
+  text-decoration: none;
+}
+.titel {
+  position: fixed;
+  padding: 2em;
+  padding-top: 4em;
+  font-size: 0.9em;
+}
+
+header ul {
+  position: fixed;
+  padding: 2em;
+  padding-top: 5.6em;
+  font-size: 0.9em;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.email {
+  position: fixed;
+  text-decoration: underline;
+  top: 50vh; right: -4em;
+  transform: rotate(90deg)
+}
+
+header img {
+  position: absolute;
+  top: 12em;
+  width: 24em;
+  left: calc(50% - 12em);
+}
+
+header p {
+  text-align: center;
+  padding-top: 13em;
+  font-size: 1.1em;
+}
+span {
+  background-color: orange;
+}
+
+/* MAIN ///////////////////////////*/
+main {
+  color: white;
+}
+
+/* project 1 */
+.restaurant {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding: 1em;
+  padding-top: 30em;
+  padding-left: 15em;
+}
+
+.restaurant > img {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+}
+.restaurant > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  padding: 1em;
+  padding-top: 5em;
+  margin-right: 1em;
+}
+
+.restaurant > h2 {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.restaurant > section p {
+  padding-top: 0.8em;
+  font-family: Avenir Light;
+  display: block;
+  width: 75%;
+}
+
+/* project 2 */
+.kom_eten {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding: 1em;
+  padding-top: 10em;
+  padding-left: 15em;
+}
+.kom_eten > img {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  padding-right: 20em;
+}
+.kom_eten > section {
+  padding-left: 8em;
+  padding-top: 3em;
+}
+.kom_eten > h2 {
+  font-size: 2em;
+  font-weight: 100;
+}
+.kom_eten > section p {
+  padding-top: 0.8em;
+  font-family: Avenir Light;
+  display: block;
+  width: 70%;
+}
+
+/* project 3 */
+.by_locals {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding: 1em;
+  padding-top: 10em;
+  padding-left: 17em;
+}
+.by_locals > img {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  padding-left: 4em;
+}
+.by_locals > section {
+  padding-left: 8em;
+  padding-top: 3em;
+}
+.by_locals > h2 {
+  font-size: 2em;
+  font-weight: 100;
+}
+.by_locals > section p {
+  padding-top: 0.8em;
+  font-family: Avenir Light;
+  display: block;
+  width: 53%;
+}
+/* project 4 */
+.lyrics {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding: 1em;
+  padding-top: 10em;
+  padding-left: 15em;
+}
+.lyrics > img {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  padding-right: 20em;
+}
+.lyrics > section {
+  padding-left: 8em;
+  padding-top: 3em;
+}
+.lyrics > h2 {
+  font-size: 2em;
+  font-weight: 100;
+}
+.lyrics > section p {
+  padding-top: 0.8em;
+  font-family: Avenir Light;
+  display: block;
+  width: 70%;
+}
+
+/* FOOTER ///////////////////////////*/
+footer ul {
+  position: fixed;
+  text-decoration: underline;
+  color: white;
+  list-style: none;
+  left: 2em;
+  bottom: 2em;
+  font-size: 0.9em;
+}
+footer a {
+  color: white;
+}
+footer a:visited {
+  color: none;
+}
+footer a:hover {
+  color: orange;
+}
+footer a:active {
+  color: red;
+}
