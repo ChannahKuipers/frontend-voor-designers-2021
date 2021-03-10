@@ -24,16 +24,16 @@ section, article {
   0% {
     transform: scale(.75) translateX(3.2rem);
     opacity: .3;
-    transform-origin: center right;
+    /* transform-origin: center right;*/
   }
   100% {
     transform: none;
     opacity: 1;
-    transform-origin: center right;
+    /*transform-origin: center right;*/
   }
 }
 .visible {
-  animation-play-state: running;
+  /*animation-play-state: running;*/
   animation-name: laat-verschijnen;
   transform-origin: center right;
   animation-duration: 800ms;
