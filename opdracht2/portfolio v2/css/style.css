@@ -18,6 +18,7 @@ body {
 }
 
 section, article {
+  opacity: 0;
  
 }
 @keyframes laat-verschijnen {
@@ -35,7 +36,6 @@ section, article {
 .visible {
   /*animation-play-state: running;*/
   animation-name: laat-verschijnen;
-  transform-origin: center right;
   animation-duration: 800ms;
   animation-fill-mode: both;
 }
