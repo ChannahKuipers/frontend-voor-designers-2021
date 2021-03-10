@@ -38,10 +38,6 @@ section, article {
   transform-origin: center right;
   animation-duration: 800ms;
   animation-fill-mode: both;
-
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 /* FONTS///////////////// */
